@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pramod Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- PARTICLE BACKGROUND -->
+
+    <div id="particles-js"></div>
+
+    <!-- LOADER -->
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <nav>
+
+            <div class="logo">
+
+                <div class="logo-circle">
+                    <span>P</span>
+                </div>
+
+                <h2>PORTFOLIO</h2>
+
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <button id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text" data-aos="fade-right">
+
+            <h1>
+                Hi, I'm <span>Pramod</span>
+            </h1>
+
+            <h3>
+                <span class="typing"></span>
+            </h3>
+
+            <p>
+                I build responsive and modern websites using HTML, CSS, JavaScript, Python and Django, Java, SQL, MongoDB.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+                    View Projects
+                </a>
+
+                <button type="button" class="btn btn2" id="openPopup">
+    Download CV
+</button>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image" data-aos="fade-left">
+
+            <img src="images/pramod.jpeg" alt="Pramod">
+
+        </div>
+
+    </section>
+
+    <!-- SOCIAL ICONS -->
+
+    <div class="social-icons">
+
+        <!-- GitHub -->
+
+        <a href="https://github.com/pramodmalogi-007" target="_blank">
+
+            <i class="fab fa-github"></i>
+
+        </a>
+
+        <!-- LinkedIn -->
+
+        <a href="https://www.linkedin.com/in/pramod-maloji-16a37b268/" target="_blank">
+
+            <i class="fab fa-linkedin"></i>
+
+        </a>
+
+        <!-- Instagram -->
+
+        <a href="https://www.instagram.com/pramod_maloji/" target="_blank">
+
+            <i class="fab fa-instagram"></i>
+
+        </a>
+
+    </div>
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about" data-aos="fade-up">
+
+        <h2 class="title">About Me</h2>
+
+        <p>
+            I am a passionate Full Stack Developer who creates responsive, modern and user-friendly websites using HTML, CSS, JavaScript, Python and Django, Java, SQL, MongoDB. I am dedicated to delivering high-quality work and continuously improving my skills to
+            stay up-to-date with the latest technologies in web development.
+        </p>
+
+    </section>
+
+    <!-- SKILLS -->
+
+    <section class="skills" id="skills">
+
+        <h2 class="title" data-aos="fade-up">Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fas fa-database"></i>
+                <h3>MongoDB</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- STATS SECTION -->
+
+    <section class="stats">
+
+        <div class="stat-box" data-aos="zoom-in">
+
+            <h2 class="counter" data-target="4">0</h2>
+
+            <p>Projects Completed</p>
+
+        </div>
+
+        <div class="stat-box" data-aos="zoom-in">
+
+            <h2 class="counter" data-target="7">0</h2>
+
+            <p>Technologies Learned</p>
+
+        </div>
+
+        <div class="stat-box" data-aos="zoom-in">
+
+            <h2 class="counter" data-target="5">0</h2>
+
+            <p>Certificates</p>
+
+        </div>
+
+
+
+    </section>
+    <!-- PROJECTS -->
+
+    <section class="projects" id="projects">
+
+        <h2 class="title" data-aos="fade-up">Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card" data-aos="fade-up">
+
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop" alt="Project">
+
+                <div class="project-content">
+
+                    <h3>Quiz Platform</h3>
+
+                    <p>
+                        Online quiz platform built using Django.
+                    </p>
+
+                    <a href="https://github.com/pramodmalogi-007/onlinequize-master" class="btn">
+                        View
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+
+                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=800&auto=format&fit=crop" alt="Project">
+
+                <div class="project-content">
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        Responsive personal portfolio website.
+                    </p>
+
+                    <a href="#" class="btn">
+                        View
+                    </a>
+
+                </div>
+
+            </div>
+            <!-- PROJECT 3 -->
+
+            <div class="project-card" data-aos="fade-up">
+
+                <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&w=800&auto=format&fit=crop" alt="Catering Project">
+
+                <div class="project-content">
+
+                    <h3>Catering Management System</h3>
+
+                    <p>
+                        A smart catering management system for booking, food orders, customer management and event handling.
+                    </p>
+
+                    <a href="#" class="btn">
+            View
+        </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 4 -->
+
+            <div class="project-card" data-aos="fade-up">
+
+                <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="Smart City Analysis">
+                <div class="project-content">
+
+                    <h3>Smart City Analysis</h3>
+
+                    <p>
+                        Data analysis project for smart city development using Python, visualization and analytics techniques.
+                    </p>
+
+                    <a href="#" class="btn">
+            View
+        </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact" id="contact">
+
+        <h2 class="title" data-aos="fade-up">Contact Me</h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-aos="zoom-in">
+
+            <input type="hidden" name="access_key" value="adc23307-40f4-44c7-a90a-f8dd51fa1bfe">
+
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Designed & Developed by Pramod Maloji © 2026 </p>
+
+    </footer>
+
+    <!-- WHATSAPP -->
+
+    <a href="https://wa.me/917483434789" class="whatsapp" target="_blank">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+    <!-- Typed JS -->
+    <!-- CV DOWNLOAD POPUP -->
+
+    <div class="cv-popup" id="cvPopup">
+
+        <div class="popup-box">
+
+            <span id="closePopup">&times;</span>
+
+            <h2>Download CV</h2>
+
+            <form id="cvForm" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="adc23307-40f4-44c7-a90a-f8dd51fa1bfe">
+
+                <input type="hidden" name="subject" value="New CV Download">
+
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+
+                <button type="submit" class="btn">
+                Submit & Download
+            </button>
+
+            </form>
+
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <!-- PARTICLES JS -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- SCRIPT FILE -->
+    <script src="script.js"></script>
+    <!-- SCROLL TOP BUTTON -->
+
+    <button id="topBtn">
+
+    <i class="fas fa-arrow-up"></i>
+
+</button>
+
+
+    <!-- CV DOWNLOAD POPUP -->
+
+    <div class="cv-popup" id="cvPopup">
+
+        <div class="popup-box">
+
+            <span id="closePopup">&times;</span>
+
+            <h2>Download CV</h2>
+
+            <form id="cvForm" action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="adc23307-40f4-44c7-a90a-f8dd51fa1bfe">
+
+                <input type="hidden" name="subject" value="New CV Download">
+
+                <input type="email" name="email" placeholder="Enter Your Email" required>
+
+                <button type="submit" class="btn">
+                Submit & Download
+            </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- Typed JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Sweet Alert -->
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- PARTICLES JS -->
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- SCRIPT FILE -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+</button>
+
+</body>
+
+</html>
